@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body { background: #0a0a0f; color: white; }
+.btn { @apply inline-flex items-center gap-2 rounded-xl px-4 py-2 text-sm font-medium transition border border-transparent; }
+.card { @apply rounded-2xl border border-white/10 bg-white/5; }
+.card-content { @apply p-4; }
